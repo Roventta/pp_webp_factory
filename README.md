@@ -11,7 +11,7 @@ The object needs to be initialized with a string, which ddefines it's target dis
 This object's proceduals of converting an image:
 
 	on receive image form client:
-		check image's size qualified, and has an acceptable file format (footnote 1)
+		check image's size, and has an acceptable file format (footnote 1)
 		if qualified:
 			save the image from tempory domain to file system
 			perform transforms base on file extensions, a newfile.webp is written.
